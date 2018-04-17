@@ -1,6 +1,8 @@
 html {
     background: rgb(224,246,244);
     width:100%;
+    min-width: 1280px;
+    min-height: 550px;
 }
 
 body {
@@ -120,7 +122,7 @@ nav div ul li {
     margin:0;
     padding: 0;    
     position: absolute;
-    left: 40%;
+    left: 515px;
 }
 .logo img {
     width: 75px;
