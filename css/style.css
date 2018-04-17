@@ -1,0 +1,266 @@
+html {
+    background: rgb(224,246,244);
+    width:100%;
+}
+
+body {
+    margin: 0 auto;
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Calibri";
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Calibri";
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+
+a {
+    color:#000;
+    text-decoration: none;    
+}
+a:hover {
+    color: rgb(2,106,113);
+    text-decoration: underline;
+}
+
+.menu {
+    position: fixed;
+    left: -20%;
+    z-index: 1000;
+    width: 20%;
+    height: 100%;
+    background: rgb(224,246,244);
+}
+.leftMenu ul li {
+    width: 12%;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #000;
+}
+.menuItem {
+    display: none;
+    margin: 15px 0;
+}
+
+.menuItem img {
+    width: 100%;
+}
+
+#closeButton {
+    font-size: 28px;
+    text-align: center;
+}
+
+#closeButton a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.black {
+    width:80%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    left: 20%;
+    z-index: 10;
+}
+
+header {
+    background: rgb(111,224,218);
+    height:140px;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 0 auto;
+    width: 1188px;
+    padding-top: 15px;
+    padding-bottom: 10px; 
+}
+nav div {
+    float: left;
+}
+nav div ul li {
+    float: left;
+}
+.bars{
+    margin: 28px 0;
+    width: 12%;
+}
+
+.bars img{
+    width: 64px;
+}
+
+.bars h3{
+    margin-left: 16px;
+    font-size: 20px;
+    height: 28px;
+    margin-top: 18px;
+}
+.logo {
+    margin:0;
+    padding: 0;    
+    position: absolute;
+    left: 40%;
+}
+.logo img {
+    width: 75px;
+    height: 75px;
+    margin: 0;
+}
+.logo h2 {
+    margin: 10px 0;
+    width: 250px;
+    height: 36px;
+}
+.search {
+    float: right;
+    margin: 28px 0;
+    height: 48px;
+}
+input {
+    font-size: 32px;
+}
+
+.search img{
+    width: 48px;
+}
+
+.search input {
+    width: 216px;
+    height: 39px;
+    vertical-align:top;
+}
+
+.top img {
+    width:100%;
+}
+
+.main {
+    margin: 118px auto;
+    width: 1188px;
+    height: 650px;
+}
+.main .center {
+    height: 296px;
+    margin-bottom: 58px;
+}
+
+.center img {
+    width: 100%;
+    height: 296px;
+}
+
+.center_text {
+    position: relative;
+    top: -204px;
+    left: 73px;
+    width: 567px;
+    height: 107px;    
+}
+
+.center_text h3 {
+    font-family: 'Cinzel',"Calibri", serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.center_down {
+    margin: 58px 0;
+}
+.center_down h3 {
+    font-size: 24px;
+}
+.center_down p {
+    font-size: 14px;
+}
+
+.center_down img{
+    width: 580px;
+    height: 295px;
+}
+
+.left {
+    float: left;
+}
+
+.left_text {
+    position: relative;
+    top: -272px;
+}
+
+.right {
+    float: right;
+}
+
+.right_text {
+    position: relative;
+    top: -51px;
+}
+
+footer {
+    background: rgb(10,187,181);  
+    width: 100%;
+    height: 170px;
+}
+
+.footer {
+    width: 1188px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.footer_left {
+    margin-left: -37px;
+    height: 170px;
+}
+
+.footer_left div {
+    background: rgba(255,255,255,0.75);
+    margin-left: 37px;
+    padding: 16px 10px;
+    width: 269px;
+    height: 170px;
+    float: left;
+    box-sizing: border-box;
+}
+footer div h3 {
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+footer div p {
+    margin: 5px 0;
+    text-align: left;
+}
+.f4 ul{
+    margin-left: -17px;
+}
+.f4 ul li {
+    padding-left: 17px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
